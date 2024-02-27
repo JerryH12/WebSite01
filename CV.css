@@ -1,17 +1,19 @@
 body{
     background-image: linear-gradient(to bottom right, #f2f2f2, #003399);
-    color: #52527a;
+    
 }
 
 .flex-container{
     display:flex;
-
-   
+    justify-content: space-between; 
 }
 
 #container{
-    width: 800px;
-    height: 1000px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #52527a;
+    width: 780px;
+    height: 600px;
     padding: 20px;
     margin-left:auto;
     margin-right: auto;
@@ -21,17 +23,14 @@ body{
 article.left{
    
     width: 30%;
-    height:100%;
+    height:600px;
     border-right: 1px solid #000;
-    margin-right: 20px;
-   
-    
 }
 
 article.right{
     
-    width: 60%;
-    height: 100%;
+    width: 65%;
+    height: 6cqmin;
 }
 
 #profilepic {
@@ -40,17 +39,34 @@ article.right{
     border-radius: 50%;
 }
 
-ul{list-style-type: none;padding:0; margin:0}
+ul {
+    padding:0; 
+    margin: 0;
+}
+
+article.left li {
+    margin-left: 16px
+}
+
+article.right li {
+    margin-top: 8px
+}
+
+article.right ul {
+    list-style-type: none;
+   
+   
+}
 ul li {
-    margin:3px 0;
+   
     color: gray;
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 18px;
     margin: 14px 0 3px 0;
 }
 
 h4{
-    margin: 3px 0;
+    margin: 2px 0;
 }
